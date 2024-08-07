@@ -1,0 +1,31 @@
+# Ignorar directorios
+notebook/
+doc/
+data/
+
+# Ignorar archivos específicos
+*.tgz
+*.zip
+
+# Ignorar archivos temporales y de sistema
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos compilados de Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignorar entornos virtuales de Python
+venv/
+env/
+.env/
+.venv/
+
+# Ignorar archivos de configuración de IDEs
+.vscode/
+.idea/
